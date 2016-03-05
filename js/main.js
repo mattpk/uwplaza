@@ -9,10 +9,12 @@ $(document).ready(function() {
 		var list = document.getElementById("submit-drop");
 		itemList.forEach(function(item) {
 			console.log(item);
-			var itemEl = document.createElement("option");
-			itemEl.setAttribute("value", item.toLowerCase());
-			itemEl.innerHTML = item;
-			list.appendChild(itemEl);
+			var atag = document.createElement("a");
+			var litag = document.createElement("li");
+			atag.innerHTML = item;
+			atag.setAttribute("href", "#");
+			litag.appendChild(atag);
+			list.appendChild(litag);
 		});
 	});
 

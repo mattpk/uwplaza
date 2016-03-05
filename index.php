@@ -48,9 +48,6 @@
 						    <span data-bind="label">Select One</span> <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Item 1</a></li>
-						    <li><a href="#">Another item</a></li>
-						    <li><a href="#">This is a longer item that will not fit properly</a></li>
 						  </ul>
 						</div>
                     	</div>
