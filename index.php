@@ -97,32 +97,32 @@
 
     <div class="container-fluid"><center>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC L">
+            <a href="restaurant.php" class="btn btnC L">
                 <strong>A - Panino's Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC M">
+            <a href="restaurant.php" class="btn btnC M">
                 <strong>B - Aunty's Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC R">
+            <a href="restaurant.php" class="btn btnC R">
                 <strong>C - SOGO Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC L">
+            <a href="restaurant.php" class="btn btnC L">
                 <strong>D - Burger King Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC M">
+            <a href="restaurant.php" class="btn btnC M">
                 <strong>E - Mel's Diner Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="restaurants.php" class="btn btnC R">
+            <a href="restaurant.php" class="btn btnC R">
                 <strong>F - Chen's Challenge</strong><br>
             </a>    
         </div>
