@@ -161,13 +161,13 @@ $(document).ready(function() {
 				} else {
 					var color = '#f5f5ef';
 					if (best[y] != 0) {
-						if (vals[x][y] / best[y] > 0.90)
+						if (vals[x][y] / best[y] >= 0.90)
 							color = '#267326';
-						else if (vals[x][y] / best[y] > 0.75)
+						else if (vals[x][y] / best[y] >= 0.75)
 							color = '#39ac39';
-						else if (vals[x][y] / best[y]  > 0.50)
+						else if (vals[x][y] / best[y]  >= 0.50)
 							color = '#53c653';
-						else if (vals[x][y] / best[y] > 0.25)
+						else if (vals[x][y] / best[y] >= 0.25)
 							color = '#bbbb77';
 						else if (vals[x][y] / best[y] > 0)
 							color = '#d6d6ad';
