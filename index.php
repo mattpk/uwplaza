@@ -229,7 +229,7 @@
     </div>
         <div class="row">
         	<div class="col-sm-8">
-        <center><h3>See how you fare in exploring the food in the plaza compared to your friends. Gotta eat'em all!</h3></center>
+        <center><h3>Explore the food at UW Plaza with your friends. Gotta eat'em all!</h3></center>
     </div>
     <div class="row">
         	<div class="col-sm-2">
@@ -253,7 +253,6 @@
 <td bgcolor="#e47fdf" width="20px"></td><td>100% </td>
 </tr><tr><td colspan="10"></td></tr></table>
 </center>
-<br />
 <center><h4>Dishes Tried</h4></center>
     
 
