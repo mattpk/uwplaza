@@ -19,20 +19,51 @@
 	  </div>   
 	</div>
 	<div class="container-fluid"><center>
-		<div class="col-sm-4" id="challengeL">
-			<a href="panino.html" class="btn btn-default" role="button">
+		<div class="col-sm-4" id="challenge">
+			<a href="panino.html" class="btn L">
 		        <strong>Panino Challenge</strong><br>
-		        <span>Very Long Summary</span>
 	      	</a>
 	    </div>
-	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeL">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeL">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
-	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn M">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn R">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>	
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+			<a href="panino.html" class="btn L">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn M">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn R">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>	
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+			<a href="panino.html" class="btn L">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn M">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challenge">
+	    	<a href="panino.html" class="btn R">
+		        <strong>Panino Challenge</strong><br>
+	      	</a>	
+	    </div>
 	</center>
 	</div>  
 	
