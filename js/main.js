@@ -108,22 +108,20 @@ $(document).ready(function() {
 		console.log(benson);
 		var alpha = "ABCDEFGHIJKLMNOPQRSTUWVXYZ";
 		for (var x = -1; x < people.length; x++) {
-			var row = $('<tr></tr>');
 			var columns = "";
 
 			for (var y = -1; y < rest.length; y++) {
 				if (x == -1 && y == -1) {
-					columns += '<tr>Name</tr>';
+					columns += '<th>Name</th>';
 				} else if (x == -1) {
-					columns += '<tr>' + alpha.substring(x,x+1) + '</tr>';
+					columns += '<th>' + alpha.substring(x,x+1) + '</th>';
 				} else if (y == -1) {
 					columns += '<td>' + people[x] + '</td>';
 				} else {
 					columns += '<td>' + vals[x][y] + '</td>';
 				}
 			}
-			row.text(columns);
-			$("table .table-bordered").append(row);
+			$(".table-bordered").append('<tr>' + columns + '</tr>');
 		}
 
 	});
