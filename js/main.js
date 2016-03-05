@@ -46,7 +46,9 @@ $(document).ready(function() {
 		var questName = questField.getAttribute("value");
 		var ratingT = ratingField.getAttribute("value");
 		var reviewT = qreviewField.getAttribute("value");
+		restaurantName = $.(".btn.btn-default.dropdown-toggle.form-control").text();
 		alert(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
+		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		//$.post("ajaxReq.php", {req: "add", user: quest, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
 	});
 
