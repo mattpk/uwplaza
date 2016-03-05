@@ -11,10 +11,11 @@ var reqRestaurant = function(name) {
 }
 
 var getList = function () {
+	var parsed;
 	$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
-		console.log(typeof data.addSlashes());
-		return JSON.parse(data.addSlashes());
+		parsed = JSON.parse(data);
 	});
+	return parsed;
 }
 
 console.log("loaded");
