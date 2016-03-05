@@ -27,7 +27,7 @@
       <div class="col-sm-1">
             <div class="container">
     <div class="row">
-    <br/><br/><br/>
+        <br/><br/><br/>
         <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact" data-original-title>
           Submit Record
         </a>
@@ -42,63 +42,50 @@
                     <div class="modal-body" style="padding: 5px;">
                     	<div class="row">
                     		<div class="col-lg-12 col-md-12 col-sm-12">
-                            <h2>Restaurant</h2>                                          
-                            <div class="btn-group btn-input clearfix">
-						  <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
-						    <span data-bind="label">Select One</span> <span class="caret"></span>
-						  </button>
-						  <ul class="dropdown-menu" role="menu" id="submit-drop">
-						  </ul>
-						</div>
-                    	</div>
-                    </div>
-                          <div class="row">
-                          	
-						<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="Quest ID" placeholder="Dish Name" type="text" required autofocus />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="email" placeholder="Quest ID" type="text" required />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="subject" placeholder="Rating" type="text" required />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <textarea style="resize:vertical;" class="form-control" placeholder="Review..." rows="6" name="comment" required></textarea>
-                                </div>
-                            </div>
-                        </div>  
-                            </div>
-                            <script>
-						    $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
-						 
-						   var $target = $( event.currentTarget );
-						 
-						   $target.closest( '.btn-group' )
-						      .find( '[data-bind="label"]' ).text( $target.text() )
-						         .end()
-						      .children( '.dropdown-toggle' ).dropdown( 'toggle' );
-						 
-						   return false;
-						 
-						});
-						    </script>
-                        <div class="panel-footer" style="margin-bottom:-14px;">
-                            <input type="submit" class="btn btn-success" value="Send"/>
-                                <!--<span class="glyphicon glyphicon-ok"></span>-->
-                            <input type="reset" class="btn btn-danger" value="Clear" />
-                                <!--<span class="glyphicon glyphicon-remove"></span>-->
-                            <button style="float: right;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <h2>Restaurant</h2>                                          
+                                <div class="btn-group btn-input clearfix">
+    						      <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+    						          <span data-bind="label">Select One</span> <span class="caret"></span>
+    						      </button>
+    						      <ul class="dropdown-menu" role="menu" id="submit-drop">
+    						      </ul>
+						         </div>
+                    	   </div>
                         </div>
-                    </div>
+                        <div class="row">
+                          	
+						      <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                    <input class="form-control" name="Quest ID" placeholder="Dish Name" type="text" id="dish-field" required autofocus />
+                              </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                <input class="form-control" name="email" placeholder="Quest ID" type="text" id="questid-field" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                <input class="form-control" name="subject" placeholder="Rating" type="text" id="rating-field" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <textarea style="resize:vertical;" class="form-control" placeholder="Review..." rows="6" name="comment" id="review-field" required></textarea>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="panel-footer" style="margin-top:21px;">
+                    <input type="submit" class="btn btn-success" value="Send" id="submit-button"/>
+                                <!--<span class="glyphicon glyphicon-ok"></span>-->
+                    <input type="reset" class="btn btn-danger" value="Clear" id="clear-button"/>
+                                <!--<span class="glyphicon glyphicon-remove"></span>-->
+                     <button style="float: right;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
+        </div>
+     </div>
        
     
 </div>
