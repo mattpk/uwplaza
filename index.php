@@ -14,8 +14,15 @@
 
 	<div class="container-fluid">
 	  <div class="jumbotron">
-	    <h1>
-	    <center>Explore Restaurants At the Plaza</center></h1>      
+      <div class="row">
+      <div class="col-sm-2">
+      <img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="263" height="163">
+      </div>
+      <div class="col-sm-10">
+        <div class="bottom_aligner2">
+	    <h1>Explore Restaurants At the Plaza</h1></div>
+        </div>
+      </div>      
 	  </div>   
 	</div>
 	<div class="container-fluid"><center>
