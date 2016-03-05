@@ -21,7 +21,7 @@ if ($req == "restaurants") {
 		die('Unable to load deck list. [' . $db->connect_error . ']');
 	}
 	while ($row = $result->fetch_assoc()) {
-		$reply[] = array($row['ID'], $row['NAME']);
+		$reply[] = $row['NAME'];
 	}	
 	echo json_encode($reply);
 }
