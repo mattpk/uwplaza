@@ -36,7 +36,7 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Any questions? Feel free to contact us.</h4>
+                        <h4 class="panel-title" id="contactLabel"><span class="glyphicon glyphicon-info-sign"></span> Submit Record</h4>
                     </div>
                     <form action="#" method="post" accept-charset="utf-8">
                     <div class="modal-body" style="padding: 5px;">
@@ -55,17 +55,17 @@
                           <div class="row">
                           	
 						<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="Quest ID" placeholder="Firstname" type="text" required autofocus />
+                                    <input class="form-control" name="Quest ID" placeholder="Dish Name" type="text" required autofocus />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="email" placeholder="E-mail" type="text" required />
+                                    <input class="form-control" name="email" placeholder="Quest ID" type="text" required />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="subject" placeholder="Subject" type="text" required />
+                                    <input class="form-control" name="subject" placeholder="Rating" type="text" required />
                                 </div>
                             </div>
                             <div class="row">
@@ -262,7 +262,16 @@
     </tbody>
   </table>
 </div>
-
+<center>
+</table>
+<br />
+<table border="0"><tr><td bgcolor="#f5f5ef" width="20px"></td><td>0% </td>
+<td bgcolor="#bbbb77" width="20px" ></td><td>25%   </td>
+<td bgcolor="#53c653" width="20px"></td><td>25%   </td>
+<td bgcolor="#39ac39" width="20px"></td><td>50%   </td>
+<td bgcolor="#267326" width="20px"></td><td>100% </td>
+</tr><tr><td colspan="10"><center><h4>Dishes Tried</h4></center></td></tr></table>
+</center>
     
 
     </body>
