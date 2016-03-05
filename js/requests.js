@@ -9,8 +9,8 @@ console.log("loaded");
 var test = {
 	"map": [{"name": "John", "eaten": [1, 1, 1]}, 
 			{"name": "Bob", "eaten": [1, 0, 1]}, 
-			{"name": "Jane", "eaten": [0, 0, 0]}],
-	"items": ["cumin lamb", "sesame chicken", "sweet sour pork"]
+			{"name": "Jane", "eaten": [1, 0, 0]}],
+	"items": ["Name", "cumin lamb", "sesame chicken", "sweet sour pork"]
 }
 
 localStorage.name = "John";
@@ -20,12 +20,16 @@ function drawTable (data) {
 	console.log("drawtable");
 	 var table = document.createElement("table");
 	 table.className = "table table-bordered";
+	 table.style.margin = "auto";
+	 table.style.width = "75%";
 	 var headers = data.items;
 	 var map = data.map;
 	 var person;
 	 var pindex = -1;
 	 var personName = localStorage.name;
 
+
+	 var percentWidth = (100*(1/(headers.length + 1))) + "%";
 
 	 for(var i = 0; i < map.length; ++i) {
 	 	if(personName === map[i].name) {
@@ -38,12 +42,12 @@ function drawTable (data) {
 	 // printing headers
 	 var row = document.createElement("tr");
 
-	 var tdata = document.createElement("th");
-	 row.appendChild(tdata);
+	 var tdata;
 
 	 for(var i = 0; i < headers.length; ++i) {
 	 	tdata = document.createElement("th");
 	 	tdata.innerHTML = headers[i];
+	 	tdata.style.width = percentWidth;
 	 	row.appendChild(tdata);
 	 }
 	 table.appendChild(row);
@@ -53,6 +57,7 @@ function drawTable (data) {
 	 	table.appendChild(row);
 	 	tdata = document.createElement("td");
 	 	tdata.innerHTML = person.name;
+	 	tdata.style.width = percentWidth;
 	 	row.appendChild(tdata);
 	 	var personArr = person.eaten;
 	 	for(var i = 0; i < personArr.length; ++i) {
@@ -60,6 +65,7 @@ function drawTable (data) {
 	 		if(personArr[i])
 	 			tdata.style.backgroundColor = "red";
 	 			//tdata.bgcolor = "red";
+	 		tdata.style.width = percentWidth;
 	 		row.appendChild(tdata);
 	 	}
 	 	table.appendChild(row);
@@ -72,6 +78,7 @@ function drawTable (data) {
 	 	table.appendChild(row);
 	 	tdata = document.createElement("td");
 	 	tdata.innerHTML = map[j].name;
+	 	tdata.style.width = percentWidth;
 	 	row.appendChild(tdata);
 	 	console.log(map[j].name);
 	 	var personArr = map[j].eaten;
@@ -81,6 +88,7 @@ function drawTable (data) {
 	 		if(personArr[i])
 	 			tdata.style.backgroundColor = "red";
 	 			//tdata.bgcolor = "red";
+	 		tdata.style.width = percentWidth;
 	 		row.appendChild(tdata);
 	 	}
 	 	table.appendChild(row);
