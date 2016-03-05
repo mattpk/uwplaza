@@ -52,6 +52,11 @@ table {
     text-align: center;
     width: 20%;
 }
+
+th,td{
+  text-align: center;
+}
+
 table.tablec {
     border-collapse: collapse;
     text-align: center;
