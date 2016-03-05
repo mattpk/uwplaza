@@ -62,6 +62,18 @@
                                 </div>
                             </div>
                         </div>  
+
+						<div class="container">
+							<h2>Restaurant</h2>                                          
+							  <div class="dropdown">
+							    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+							    <span class="caret"></span></button>
+							    <ul class="dropdown-menu">
+							      <li><a href="#">HTML</a></li>
+							      <!--insert with js -->
+							    </ul>
+							  </div>
+							</div>
                         <div class="panel-footer" style="margin-bottom:-14px;">
                             <input type="submit" class="btn btn-success" value="Send"/>
                                 <!--<span class="glyphicon glyphicon-ok"></span>-->
