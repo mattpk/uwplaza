@@ -160,15 +160,13 @@ $(document).ready(function() {
 				} else {
 					var color = '#f5f5ef';
 					if (best[y] != 0) {
-						if (vals[x][y] / best[y] == 1)
-							color = '#133a13';
-						else if (vals[x][y] / best[y] > 0.75)
+						if (vals[x][y] / best[y] > 0.90)
 							color = '#267326';
-						else if (vals[x][y] / best[y] > 0.50)
+						else if (vals[x][y] / best[y] > 0.75)
 							color = '#39ac39';
-						else if (vals[x][y] / best[y] > 0.25)
+						else if (vals[x][y] / best[y]  > 0.50)
 							color = '#53c653';
-						else if (vals[x][y] / best[y] > 0.0)
+						else if (vals[x][y] / best[y] > 0)
 							color = '#bbbb77'
 					}
 					columns += '<td bgcolor="'+ color +'">' + vals[x][y] + '</td>';
