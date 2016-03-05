@@ -2,42 +2,43 @@
 	background-color:white;
 	padding-bottom: 10px;
 }
-.btn {
-  text-decoration: none;
+.btn.btnC {
+  text-decoration:none;
   background-color: #4d4d4d;
   color: rgba(255, 255, 255, 0.7);
   color: #ffffff;
   font-weight: bold;
   width: 100%;
   margin: 0px;
+   background-color: blue;
 }
-.btn.L {
+.btn.btnC.L{
   background-color: blue;
 }
-.btn.M {
+.btn.btnC.M{
   background-color: black;
 }
-.btn.R {
+.btn.btnC.R{
   background-color: violet;
 }
+
+.btn.btnC.L:hover{
+  background-color: blue;
+  color: black;
+}
+.btn.btnC.M:hover{
+  background-color: black;
+  color: black;
+}
+.btn.btnC.R:hover{
+  background-color: violet;
+  color: black;
+}
+
+
 .bottom_aligner {
     padding-top: 120px;
 }
 .bottom_aligner2 {
     padding-top: 50px;
-}
-body { margin-top:20px; }
-.modal-body:not(.two-col) { padding:0px }
-.glyphicon { margin-right:5px; }
-.glyphicon-new-window { margin-left:5px; }
-.modal-body .radio,.modal-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
-.modal-body .list-group {margin-bottom: 0;}
-.margin-bottom-none { margin-bottom: 0; }
-.modal-body .radio label,.modal-body .checkbox label { display:block; }
-.modal-footer {margin-top: 0px;}
-.modal-footer .btn+.btn {
-    margin-left: 0px;
-}
-.progress {
-    margin-right: 10px;
 }

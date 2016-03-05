@@ -67,7 +67,7 @@
                                 <!--<span class="glyphicon glyphicon-ok"></span>-->
                             <input type="reset" class="btn btn-danger" value="Clear" />
                                 <!--<span class="glyphicon glyphicon-remove"></span>-->
-                            <button style="float: right;" type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+                            <button style="float: right;" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -83,47 +83,47 @@
 
 	<div class="container-fluid"><center>
 		<div class="col-sm-4" id="challenge">
-			<a href="panino.html" class="btn L">
+			<a href="panino.html" class="btn btnC L">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn M">
+	    	<a href="panino.html" class="btn btnC M">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn R">
+	    	<a href="panino.html" class="btn btnC R">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>	
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-			<a href="panino.html" class="btn L">
+			<a href="panino.html" class="btn btnC L">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn M">
+	    	<a href="panino.html" class="btn btnC M">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn R">
+	    	<a href="panino.html" class="btn btnC R">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>	
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-			<a href="panino.html" class="btn L">
+			<a href="panino.html" class="btn btnC L">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn M">
+	    	<a href="panino.html" class="btn btnC M">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>
 	    </div>
 	    <div class="col-sm-4" id="challenge">
-	    	<a href="panino.html" class="btn R">
+	    	<a href="panino.html" class="btn btnC R">
 		        <strong>Panino Challenge</strong><br>
 	      	</a>	
 	    </div>
