@@ -18,7 +18,7 @@
       <div class="jumbotron">
       <div class="row">
       <div class="col-sm-2">
-      <img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="263" height="163">
+      <img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="100%" height="100%">
       </div>
       <div class="col-sm-9">
         <div class="bottom_aligner2">
