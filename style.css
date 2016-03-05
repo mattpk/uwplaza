@@ -86,6 +86,6 @@ table.table-bordered{
 	/*width: 90%;*/
 }
 
-table.table-bordered th{
+table.table-bordered th,td{
 	width:50%;
 }
