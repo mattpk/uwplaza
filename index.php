@@ -12,7 +12,7 @@
       <script src="js/requests.js"></script>
       <script src="js/main.js"></script>
     </head>
-    <body>
+    <body>	
 
     <div class="container-fluid">
       <div class="jumbotron">
@@ -40,12 +40,25 @@
                     </div>
                     <form action="#" method="post" accept-charset="utf-8">
                     <div class="modal-body" style="padding: 5px;">
+                    	<div class="row">
+                    		<div class="col-lg-12 col-md-12 col-sm-12">
+                            <h2>Restaurant</h2>                                          
+                            <div class="btn-group btn-input clearfix">
+						  <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
+						    <span data-bind="label">Select One</span> <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Item 1</a></li>
+						    <li><a href="#">Another item</a></li>
+						    <li><a href="#">This is a longer item that will not fit properly</a></li>
+						  </ul>
+						</div>
+                    	</div>
+                    </div>
                           <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="firstname" placeholder="Firstname" type="text" required autofocus />
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-                                    <input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
+                          	
+						<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+                                    <input class="form-control" name="Quest ID" placeholder="Firstname" type="text" required autofocus />
                                 </div>
                             </div>
                             <div class="row">
@@ -60,18 +73,25 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+                                    <textarea style="resize:vertical;" class="form-control" placeholder="Review..." rows="6" name="comment" required></textarea>
                                 </div>
                             </div>
                         </div>  
-
-                        <div class="container">
-                            <h2>Restaurant</h2>                                          
-                              <div class="dropdown">
-                                <select id="submit-drop" class="dropdown-menu">
-                                </select>
-                              </div>
                             </div>
+                            <script>
+						    $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+						 
+						   var $target = $( event.currentTarget );
+						 
+						   $target.closest( '.btn-group' )
+						      .find( '[data-bind="label"]' ).text( $target.text() )
+						         .end()
+						      .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+						 
+						   return false;
+						 
+						});
+						    </script>
                         <div class="panel-footer" style="margin-bottom:-14px;">
                             <input type="submit" class="btn btn-success" value="Send"/>
                                 <!--<span class="glyphicon glyphicon-ok"></span>-->

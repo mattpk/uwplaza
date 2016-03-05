@@ -13,21 +13,21 @@
    background-color: blue;
 }
 .btn.btnC.L{
-  background-color: blue;
+  background-color: #2077af;
 }
 .btn.btnC.M{
-  background-color: black;
+  background-color:  #534658;
 }
 .btn.btnC.R{
   background-color: #9A479B;
 }
 
 .btn.btnC.L:hover{
-  background-color: blue;
+  background-color: #a6deee;
   color: black;
 }
 .btn.btnC.M:hover{
-  background-color: black;
+  background-color: #94849b;
   color: black;
 }
 .btn.btnC.R:hover{
