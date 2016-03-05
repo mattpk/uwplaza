@@ -50,7 +50,7 @@ $(document).ready(function() {
 		var reviewT = $("#review-field").val().trim();
 		
 		//console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
-		$.post("ajaxReq.php", {req: "add", user: quest, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
+		$.post("ajaxReq.php", {req: "add", user: questName, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
 	});
 
 	// draw main table stuff
