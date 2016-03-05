@@ -234,12 +234,12 @@
 <center>
 </table>
 <br />
-<table border="0"><tr><td bgcolor="#f5f5ef" width="20px"></td><td>0% </td>
-<td bgcolor="#bbbb77" width="20px" ></td><td>25%   </td>
-<td bgcolor="#53c653" width="20px"></td><td>50%   </td>
-<td bgcolor="#39ac39" width="20px"></td><td>75%   </td>
-<td bgcolor="#267326" width="20px"></td><td>90%   </td>
-<td bgcolor="#133a13" width="20px"></td><td>100% </td>
+<table border="0"><tr><td bgcolor="#e47fdf" width="20px"></td><td>0% </td>
+                      <td bgcolor="#cca0ff" width="20px" ></td><td>25%   </td>
+                      <td bgcolor="#b9bcfc" width="20px"></td><td>50%   </td>
+                      <td bgcolor="#9ddbff" width="20px"></td><td>75%   </td>
+                      <td bgcolor="#afefff" width="20px"></td><td>90%   </td>
+                      <td bgcolor="#c4ffed" width="20px"></td><td>100% </td>
 </tr><tr><td colspan="10"><center><h4>Dishes Tried</h4></center></td></tr></table>
 </center>
     

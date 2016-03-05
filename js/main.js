@@ -159,18 +159,18 @@ $(document).ready(function() {
 				} else if (y == -1) {
 					columns += '<td>' + people[x] + '</td>';
 				} else {
-					var color = '#f5f5ef';
+					var color = '#c4ffed';
 					if (best[y] != 0) {
 						if (vals[x][y] / best[y] >= 0.90)
-							color = '#267326';
+							color = '#e47fdf';
 						else if (vals[x][y] / best[y] >= 0.75)
-							color = '#39ac39';
+							color = '#cca0ff';
 						else if (vals[x][y] / best[y]  >= 0.50)
-							color = '#53c653';
+							color = '#b9bcfc';
 						else if (vals[x][y] / best[y] >= 0.25)
-							color = '#bbbb77';
+							color = '#9ddbff';
 						else if (vals[x][y] / best[y] > 0)
-							color = '#d6d6ad';
+							color = '#afefff';
 
 					}
 					columns += '<td bgcolor="'+ color +'">' + vals[x][y] + '</td>';
