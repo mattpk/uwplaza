@@ -42,7 +42,8 @@
                     <div class="modal-body" style="padding: 5px;">
                     	<div class="row">
                     		<div class="col-lg-12 col-md-12 col-sm-12">
-                                <p>Please enter where and what you ate, a rating from 1-10, and a short review of what you thought.</p>                                          
+                                <p>Please enter where and what you ate, a rating from 1-10, and a short review of what you thought.<br>
+                                Choose a Restaurant from the drop down.</p>                 
                                 <div class="btn-group btn-input clearfix">
     						      <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
     						          <span data-bind="label">Select One</span> <span class="caret"></span>
@@ -238,7 +239,8 @@
 <td bgcolor="#bbbb77" width="20px" ></td><td>25%   </td>
 <td bgcolor="#53c653" width="20px"></td><td>50%   </td>
 <td bgcolor="#39ac39" width="20px"></td><td>75%   </td>
-<td bgcolor="#267326" width="20px"></td><td>100% </td>
+<td bgcolor="#267326" width="20px"></td><td>90%   </td>
+<td bgcolor="#133a13" width="20px"></td><td>100% </td>
 </tr><tr><td colspan="10"><center><h4>Dishes Tried</h4></center></td></tr></table>
 </center>
     
