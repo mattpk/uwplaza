@@ -35,21 +35,6 @@ body { margin-top:20px; }
 .margin-bottom-none { margin-bottom: 0; }
 .modal-body .radio label,.modal-body .checkbox label { display:block; }
 .modal-footer {margin-top: 0px;}
-@media screen and (max-width: 325px){
-    .btn-close {
-        margin-top: 5px;
-        width: 100%;
-    }
-    .btn-results {
-        margin-top: 5px;
-        width: 100%;
-    }
-    .btn-vote{
-        margin-top: 5px;
-        width: 100%;
-    }
-    
-}
 .modal-footer .btn+.btn {
     margin-left: 0px;
 }
