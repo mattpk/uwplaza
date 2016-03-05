@@ -19,7 +19,7 @@
 <div class="jumbotron">
     <div class="row">
     <div class="col-sm-2">
-    <a href="index.php"><img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="100%" height="100%"></a>
+    <a href="index.php"><img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo"></a>
     </div>
     <div class="col-sm-10">
     <div class="bottom_aligner2">
