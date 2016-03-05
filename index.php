@@ -76,7 +76,7 @@
                     </div>  
                 </div>
 
-                <div class="panel-footer" style="margin-top:21px;">
+                <div class="panel-footer" style="margin-top:-21px;">
                     <input type="submit" class="btn btn-success" value="Send" id="submit-button"/>
                                 <!--<span class="glyphicon glyphicon-ok"></span>-->
                     <input type="reset" class="btn btn-danger" value="Clear" id="clear-button"/>
