@@ -34,7 +34,10 @@
   background-color: violet;
   color: black;
 }
-
+.btn.btn-primary.btn-lg:hover{
+	background-color: #a6deee;
+  color: black;
+}
 
 .bottom_aligner {
     padding-top: 120px;
