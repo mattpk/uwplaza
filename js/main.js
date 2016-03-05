@@ -120,7 +120,7 @@ $(document).ready(function() {
 			var sumY = 0;
 			for (var i = 0; i < x.length; i++) {
 				sumX += x[i];
-				sumY += x[i];
+				sumY += y[i];
 			}
 			return sumY-sumX;
 		});
