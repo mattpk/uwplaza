@@ -3,20 +3,18 @@ $(document).ready(function() {
 	//	console.log("main loaded, require requests");
 	//});
 	
-	var getList = function () {
-		$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
+	$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
 
-			var itemList = JSON.parse(data);
-			var list = document.getElementById("submit-drop");
-			itemList.forEach(function(item) {
-				console.log(item);
-				var itemEl = document.createElement("li");
-				itemEl.innerHTML = item;
-				list.appendChild(itemEl);
-			});
+		var itemList = JSON.parse(data);
+		var list = document.getElementById("submit-drop");
+		itemList.forEach(function(item) {
+			console.log(item);
+			var itemEl = document.createElement("option");
+			itemEl.setAttribute("value", item.toLowerCase());
+			itemEl.innerHTML = item;
+			list.appendChild(itemEl);
 		});
-	}
-	getList();
+	});
 
 	// draw main table stuff
 	$.post("ajaxReq.php", {req: "global"}).done(function(data) {

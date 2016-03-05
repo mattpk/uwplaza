@@ -61,8 +61,8 @@ var drawTable = function(data) {
 	 	for(var i = 0; i < personArr.length; ++i) {
 	 		tdata = document.createElement("td");
 	 		if(personArr[i])
-	 			tdata.style.backgroundColor = "red";
-	 			//tdata.bgcolor = "red";
+	 			//tdata.style.backgroundColor = "red";
+	 			tdata.setAttribute("bgcolor", "red");
 	 		tdata.style.width = dwidth;
 	 		row.appendChild(tdata);
 	 	}
@@ -83,8 +83,7 @@ var drawTable = function(data) {
 	 		console.log(personArr[i]);
 	 		tdata = document.createElement("td");
 	 		if(personArr[i])
-	 			tdata.style.backgroundColor = "red";
-	 			//tdata.bgcolor = "red";
+	 			tdata.setAttribute("bgcolor", "red");
 	 		tdata.style.width = dwidth;
 	 		row.appendChild(tdata);
 	 	}
