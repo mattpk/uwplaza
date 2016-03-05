@@ -111,7 +111,7 @@ $(document).ready(function() {
 			var row = $('<tr></tr>');
 			var columns = "";
 
-			for (var y = -1; x < rest.length; y++) {
+			for (var y = -1; y < rest.length; y++) {
 				if (x == -1 && y == -1) {
 					columns += '<tr>Name</tr>';
 				} else if (x == -1) {
