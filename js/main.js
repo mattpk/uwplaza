@@ -6,6 +6,7 @@ $(document).ready(function() {
 	$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
 
 		var itemList = JSON.parse(data);
+		itemList.sort();
 		var list = document.getElementById("submit-drop");
 		itemList.forEach(function(item) {
 			var atag = document.createElement("a");
@@ -166,7 +167,7 @@ $(document).ready(function() {
 							color = '#39ac39';
 						else if (vals[x][y] / best[y]  > 0.50)
 							color = '#53c653';
-						else if (vals[x][y] / best[y] > 0.2)
+						else if (vals[x][y] / best[y] > 0.25)
 							color = '#bbbb77';
 						else if (vals[x][y] / best[y] > 0)
 							color = '#d6d6ad';
