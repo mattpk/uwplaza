@@ -166,8 +166,11 @@ $(document).ready(function() {
 							color = '#39ac39';
 						else if (vals[x][y] / best[y]  > 0.50)
 							color = '#53c653';
+						else if (vals[x][y] / best[y] > 0.2)
+							color = '#bbbb77';
 						else if (vals[x][y] / best[y] > 0)
-							color = '#bbbb77'
+							color = '#d6d6ad';
+
 					}
 					columns += '<td bgcolor="'+ color +'">' + vals[x][y] + '</td>';
 				}
