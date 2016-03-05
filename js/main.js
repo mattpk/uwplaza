@@ -106,7 +106,7 @@ $(document).ready(function() {
 			for (var j = 0; j < people.length; j++) {
 				bestSum = Math.max(bestSum, vals[j][i]);
 			}
-			best[j] = bestSum;
+			best[i] = bestSum;
 		}
 
 		//comperator function
