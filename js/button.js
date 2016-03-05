@@ -11,26 +11,37 @@ var addButton = function (name){
 		for (var x=0;x<itemListM.length;x++)
 			console.log(itemListM[x]);
 		for (var x=0;x<itemListM.length;x++){
+			/*
 			var div = document.createElement("div");
 			//div.class = "col-sm-2";
 			div.class ="";
 
 			
 			var btn = document.createElement('a');
+			*/
+			var cl;
 			if (x%6==0||x%6==1)
-				btn.class="btn btnC L";
+				cl="btn btnC L";
 			else if (x%6==2||x%6==3)
-				btn.class="btn btnC M";
+				cl="btn btnC M";
 			else (x%6==4||x%6==5)
-				btn.class="btn btnC L"; 
+				cl="btn btnC L";
+
+			console.log("yo");
+
+			$("body").append('<div><a class = "' + cl + '"></a></div>'); 
+			/*
 			var t = document.createTextNode(itemList[x]);       // Create a text node
 			btn.appendChild(t);                                // Append the text to <button>
 			div.appendChild(btn);
 			console.log(typeof div);
 			document.body.appendChild(div);
+			*/
 		}
 
 	//	});
 	//});
 }
-addButton("");
+$(document).ready(function() {
+	addButton(0);
+});
