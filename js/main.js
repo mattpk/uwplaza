@@ -2,8 +2,10 @@ $(document).ready(function() {
 	//$.getScript("requests.js", function*() {
 	//	console.log("main loaded, require requests");
 	//});
+	
 	var getList = function () {
 		$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
+
 			var itemList = JSON.parse(data);
 			var list = document.getElementById("submit-drop");
 			itemList.forEach(function(item) {
