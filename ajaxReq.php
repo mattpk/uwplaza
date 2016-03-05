@@ -24,6 +24,14 @@ if ($req == "restaurants") {
 		$reply[] = $row['NAME'];
 	}	
 	echo json_encode($reply);
+} else if ($req == 'global') {
+	if (!$result = $db->query("SELECT users.name as user, restaurants.name as restaurant, dishes.name as dish, rating, review FROM main inner join users on users.id = main.user_id inner join restaurants on restaurants.id = main.restaurant_id inner join dishes on dishes.id = main.dish_id")) {
+		die('Unable to load deck list. [' . $db->connect_error . ']');
+	}
+	while ($row = $result->fetch_assoc()) {
+		$reply[] = $row;
+	}	
+	echo json_encode($reply);
 }
 
 ?>
