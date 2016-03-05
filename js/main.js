@@ -1,7 +1,8 @@
-$.getScript("requests.js");
-console.log("main loaded, require requests");
-
 $(document).ready(function() {
+	//$.getScript("requests.js", function*() {
+	//	console.log("main loaded, require requests");
+	//});
+
 	//populates list item
 	var itemList = getList();
 	var list = document.getElementById("submit-drop");

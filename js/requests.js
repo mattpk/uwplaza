@@ -101,6 +101,6 @@ var drawTable = function(data) {
 	 console.log("done");
 }
 
-module.exports.drawTable = drawTable;
-module.exports.getList = getList;
-module.exports.reqRestaurant = reqRestaurant;
+//module.exports.drawTable = drawTable;
+//module.exports.getList = getList;
+//module.exports.reqRestaurant = reqRestaurant;
