@@ -20,11 +20,11 @@
       <div class="col-sm-2">
       <img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="100%" height="100%">
       </div>
-      <div class="col-sm-9">
+      <div class="col-sm-8">
         <div class="bottom_aligner2">
         <h1>Explore Restaurants At the Plaza</h1></div>
       </div>
-      <div class="col-sm-1">
+      <div class="col-sm-2">
             <div class="container">
     <div class="row">
         <br/><br/><br/>
