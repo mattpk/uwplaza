@@ -43,10 +43,10 @@ $(document).ready(function() {
 	submitButton.addEventListener("click", function(event) {
 		event.preventDefault();
 		console.log("submit clicked");
-		var dishName = dishField.getAttribute("value"); 
-		var questName = questField.getAttribute("value");
-		var ratingT = ratingField.getAttribute("value");
-		var reviewT = reviewField.getAttribute("value");
+		var dishName = document.getElementById("dish-field").getAttribute("value"); 
+		var questName = document.getElementById("questid-field").getAttribute("value");
+		var ratingT = document.getElementById("rating-field").getAttribute("value");
+		var reviewT = document.getElementById("review-field").getAttribute("value");
 		restaurantName = $(".btn.btn-default.dropdown-toggle.form-control").text();
 		alert(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
