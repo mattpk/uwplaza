@@ -8,7 +8,6 @@ $(document).ready(function() {
 		var itemList = JSON.parse(data);
 		var list = document.getElementById("submit-drop");
 		itemList.forEach(function(item) {
-			console.log(item);
 			var atag = document.createElement("a");
 			var litag = document.createElement("li");
 			atag.innerHTML = item;
@@ -58,7 +57,40 @@ $(document).ready(function() {
 	// draw main table stuff
 	$.post("ajaxReq.php", {req: "global"}).done(function(data) {
 		console.log(data);
-		var get = JSON.parse(data);
-		console.log(get);
+		var input = JSON.parse(data);
+		var people=[];
+		var rest=[];
+		var l=input.length;
+		for (var x=0;x<l;x++){
+			if (people.indexOf(input[x].user)==-1){
+				people[people.length]=input[x].user;
+			}
+			if (rest.indexOf(input[x].restaurant)==-1){
+				rest[rest.length]=input[x].restaurant;
+			}
+		}
+		var best = new Array(rest.length);
+
+		var vals = new Array(people.length);
+		for (var i = 0; i < people.length; i++) {
+		  vals[i] = new Array(rest.length);
+		}
+		for (var x=0; x<input.length; x++){
+			var p = people.indexOf(input[x].user); 
+			var r = rest.indexOf(input[x].restaurant);
+			vals[p][r]++;
+			best[r] = Math.max(best[r], vals[p][r]);
+		}
+		var benson = "";
+		for (var i = 0; i < people.length; i++) {
+		  	for (var n = 0; n < rest.length; n++) {
+		    	benson += vals[i][n] + " ";
+		  }
+		  benson += '\n';
+		}
+		console.log(benson);
+
+
 	});
+
 });
