@@ -58,6 +58,9 @@ $(document).ready(function() {
 	$.post("ajaxReq.php", {req: "global"}).done(function(data) {
 		//console.log(data);
 		var input = JSON.parse(data);
+		input.sort(function(x,y){
+			return x.restaurant.localeCompare(y.restaurant);
+		});
 		var people=[];
 		var rest=[];
 		var l=input.length;
