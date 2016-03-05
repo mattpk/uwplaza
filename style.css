@@ -1,3 +1,15 @@
+@font-face {
+	font-family: Nexa;
+	src: url("Nexa Light.otf") format("opentype");
+}
+
+#head {
+	font-weight: bolder;
+	font-size: 250%;
+	font-family: Nexa;
+	margin-top:-22px;
+}
+
 #challenge{
 	background-color:white;
 	padding-bottom: 10px;

@@ -22,7 +22,7 @@
       </div>
       <div class="col-sm-8">
         <div class="bottom_aligner2">
-        <h1>Explore Restaurants At the Plaza</h1></div>
+        <div id = "head">plaza food, one meal at a time.</div></div>
       </div>
       <div class="col-sm-2">
             <div class="container">
