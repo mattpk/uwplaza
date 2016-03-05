@@ -69,6 +69,7 @@ $(document).ready(function() {
 				rest[rest.length]=input[x].restaurant;
 			}
 		}
+		rest.sort();
 
 		var best = new Array(rest.length);
 		for (var x =0; x< best.length; x++) {
@@ -96,6 +97,26 @@ $(document).ready(function() {
 			best[r] = Math.max(best[r], vals[p][r]);
 		}
 
+				//sort function
+		
+		var newArray = people.slice();
+	    people.sort(compareFN);
+		
+
+		//comperator function
+		function compareFN(x, y) {
+			var iX=newArray.indexOf(x);
+			var iY=newArray.indexOf(y);
+			var sumX=0;
+			var sumY=0;
+			for (var x=0;x<rest.length;x++){
+				sumX+=vals[iX][x];
+				sumY+=vals[iY][x];
+			}
+		    return sumY-sumX;
+		}
+
+
 
 
 		var benson = "";
@@ -114,7 +135,7 @@ $(document).ready(function() {
 				if (x == -1 && y == -1) {
 					columns += '<th>Name</th>';
 				} else if (x == -1) {
-					columns += '<th>' + alpha.substring(y,y+1) + '</th>';
+					columns += '<th>' + rest[y] + " " + alpha.substring(y,y+1) + '</th>';
 				} else if (y == -1) {
 					columns += '<td>' + people[x] + '</td>';
 				} else {
