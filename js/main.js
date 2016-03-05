@@ -48,14 +48,9 @@ $(document).ready(function() {
 		var questName = $("#questid-field").val().trim();
 		var ratingT = $("#rating-field").val().trim();
 		var reviewT = $("#review-field").val().trim();
-		/*
-		var dishName = document.getElementById("dish-field").getAttribute("value").trim(); 
-		var questName = document.getElementById("questid-field").getAttribute("value").trim();
-		var ratingT = document.getElementById("rating-field").getAttribute("value").trim();
-		var reviewT = document.getElementById("review-field").getAttribute("value").trim();
-		restaurantName = $(".btn.btn-default.dropdown-toggle.form-control").text().trim();*/
-		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
-		//$.post("ajaxReq.php", {req: "add", user: quest, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
+		
+		//console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
+		$.post("ajaxReq.php", {req: "add", user: quest, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
 	});
 
 	// draw main table stuff
