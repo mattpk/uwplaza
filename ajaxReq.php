@@ -47,6 +47,7 @@ if ($req == "restaurants") {
 	if ($stmt->num_rows == 0) {
 		$query = "INSERT INTO users (NAME) VALUES (?)";
 		$stmt = $db->prepare($query);
+		$stmt->bind_param('s', $user);
 		$stmt->execute();
 		$user_id = $stmt->insert_id;
 	} else {
@@ -71,6 +72,7 @@ if ($req == "restaurants") {
 	if ($stmt->num_rows == 0) {
 		$query = "INSERT INTO dishes (NAME) VALUES (?)";
 		$stmt = $db->prepare($query);
+		$stmt->bind_param('s', $dish);
 		$stmt->execute();
 		$dish_id = $stmt->insert_id;
 	} else {
@@ -83,7 +85,7 @@ if ($req == "restaurants") {
 	$stmt = $db->prepare($query);
 	$stmt->bind_param('iiiis', $user_id, $restaurant_id, $dish_id, $rating, $review);
 	$stmt->execute();
-	
+
 } else if ($req == 'rdishes') { // dishes from a specific restaurant
 	$restaurant = $_POST['restaurant'];
 	if (!$result = $db->query("SELECT DISTINCT dishes.name FROM main join dishes on main.dish_id = dishes.id WHERE main.restaurant_id = (SELECT id FROM restaurants WHERE name = '$restaurant')")) {
