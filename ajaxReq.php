@@ -32,8 +32,8 @@ if ($req == "restaurants") {
 		$reply[] = $row;
 	}	
 	echo json_encode($reply);
-} else if ($req == 'add') {
+}/* else if ($req == 'add') {
 	$name = $_POS['']
-}
+}*/
 
 ?>
