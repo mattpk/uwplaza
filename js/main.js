@@ -69,7 +69,6 @@ $(document).ready(function() {
 				rest[rest.length]=input[x].restaurant;
 			}
 		}
-		rest.sort();
 
 		var best = new Array(rest.length);
 		for (var x =0; x< best.length; x++) {
@@ -115,6 +114,16 @@ $(document).ready(function() {
 			}
 		    return sumY-sumX;
 		}
+
+		vals.sort(function(x, y) {
+			var sumX = 0;
+			var sumY = 0;
+			for (var i = 0; i < x.length; i++) {
+				sumX += x[i];
+				sumY += x[i];
+			}
+			return sumY-sumX;
+		});
 
 
 
