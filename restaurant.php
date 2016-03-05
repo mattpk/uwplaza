@@ -23,7 +23,7 @@
     </div>
     <div class="col-sm-10">
     <div class="bottom_aligner2">
-	<h1>The Panino Challenge</h1>
+	<h1>The Challenge: Eat all the menu items!</h1>
     </div>
     </div>
     </div>

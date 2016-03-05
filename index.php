@@ -98,127 +98,127 @@
 
     <div class="container-fluid"><center>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=12" class="btn btnC L">
+    	    <a href="restaurant.php?id=12" class="btn btnC L">
     	        <strong>A - Aunty's Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=102" class="btn btnC M">
+    	    <a href="restaurant.php?id=102" class="btn btnC M">
     	        <strong>B - Baba Grill Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=32" class="btn btnC R">
+    	    <a href="restaurant.php?id=32" class="btn btnC R">
     	        <strong>C - Burger King Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=232" class="btn btnC L">
+    	    <a href="restaurant.php?id=232" class="btn btnC L">
     	        <strong>D - Campus Pizza Challenge</strong><br>
     	    </a>    
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=52" class="btn btnC M">
+    	    <a href="restaurant.php?id=52" class="btn btnC M">
     	        <strong>E - Chen's Challenge</strong><br>
     	    </a>    
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=122" class="btn btnC R">
+    	    <a href="restaurant.php?id=122" class="btn btnC R">
     	        <strong>F - Do Eat Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=172" class="btn btnC L">
+    	    <a href="restaurant.php?id=172" class="btn btnC L">
     	        <strong>G - East Side Mario's Challenge</strong><br>
     	    </a>    
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=212" class="btn btnC M">
+    	    <a href="restaurant.php?id=212" class="btn btnC M">
     	        <strong>H - Grab A Greek Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=222" class="btn btnC R">
+    	    <a href="restaurant.php?id=222" class="btn btnC R">
     	        <strong>I - Grace and Healthy Dumplings Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=192" class="btn btnC L">
+    	    <a href="restaurant.php?id=192" class="btn btnC L">
     	        <strong>J - Marble Slab Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=42" class="btn btnC M">
+    	    <a href="restaurant.php?id=42" class="btn btnC M">
     	        <strong>K - Mel's Diner Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=112" class="btn btnC R">
+    	    <a href="restaurant.php?id=112" class="btn btnC R">
     	        <strong>L - Molly Bloom's Irish Pub Challenge</strong><br>
     	    </a>    
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=92" class="btn btnC L">
+    	    <a href="restaurant.php?id=92" class="btn btnC L">
     	        <strong>M - Mongolian Grill Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=72" class="btn btnC M">
+    	    <a href="restaurant.php?id=72" class="btn btnC M">
     	        <strong>N - Mr. Sushi Challenge</strong><br>
     	    </a>
     	</div>
     	<div class="col-sm-2" id="challenge">
-    	    <a href="eattheplaza.herokuapp.com/restaurant.php?id=132" class="btn btnC R">
+    	    <a href="restaurant.php?id=132" class="btn btnC R">
     	        <strong>O - Nuri Village Challenge</strong><br>
     	    </a>
     	</div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=2" class="btn btnC L">
+            <a href="restaurant.php?id=2" class="btn btnC L">
                 <strong>P - Panino's Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=142" class="btn btnC M">
+            <a href="restaurant.php?id=142" class="btn btnC M">
                 <strong>Q - Phat Hat Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=152" class="btn btnC R">
+            <a href="restaurant.php?id=152" class="btn btnC R">
                 <strong>R - Pho-Nomenon Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=202" class="btn btnC L">
+            <a href="restaurant.php?id=202" class="btn btnC L">
                 <strong>S - Pita Factory Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=62" class="btn btnC M">
+            <a href="restaurant.php?id=62" class="btn btnC M">
                 <strong>T - Seoul Soul Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=22" class="btn btnC R">
+            <a href="restaurant.php?id=22" class="btn btnC R">
                 <strong>U - SOGO Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=242" class="btn btnC L">
+            <a href="restaurant.php?id=242" class="btn btnC L">
                 <strong>V - Sweet Dreams Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=182" class="btn btnC M">
+            <a href="restaurant.php?id=182" class="btn btnC M">
                 <strong>W - Subway Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=82" class="btn btnC R">
+            <a href="restaurant.php?id=82" class="btn btnC R">
                 <strong>X - Waterloo Star Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
-            <a href="eattheplaza.herokuapp.com/restaurant.php?id=162" class="btn btnC L">
+            <a href="restaurant.php?id=162" class="btn btnC L">
                 <strong>Y - William's Challenge</strong><br>
             </a>
         </div>   
