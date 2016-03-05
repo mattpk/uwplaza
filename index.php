@@ -241,9 +241,10 @@
 <td bgcolor="#b9bcfc" width="20px"></td><td>75%   </td>
 <td bgcolor="#cca0ff" width="20px" ></td><td>90%   </td>                 
 <td bgcolor="#e47fdf" width="20px"></td><td>100% </td>
-
-</tr><tr><td colspan="10"><center><h4>Dishes Tried</h4></center></td></tr></table>
+</tr><tr><td colspan="10"></td></tr></table>
 </center>
+<br />
+<center><h4>Dishes Tried</h4></center>
     
 
     </body>
