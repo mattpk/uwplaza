@@ -41,6 +41,7 @@ $(document).ready(function() {
 	});
 
 	submitButton.addEventListener("click", function(event) {
+		event.preventDefault();
 		console.log("submit clicked");
 		var dishName = dishField.getAttribute("value"); 
 		var questName = questField.getAttribute("value");
