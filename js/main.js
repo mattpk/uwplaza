@@ -46,7 +46,7 @@ $(document).ready(function() {
 		var dishName = dishField.getAttribute("value"); 
 		var questName = questField.getAttribute("value");
 		var ratingT = ratingField.getAttribute("value");
-		var reviewT = qreviewField.getAttribute("value");
+		var reviewT = reviewField.getAttribute("value");
 		restaurantName = $(".btn.btn-default.dropdown-toggle.form-control").text();
 		alert(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
