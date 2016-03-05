@@ -81,3 +81,7 @@ table.tablec {
   background-repeat: no-repeat;
   background-size:cover;
 }
+
+table.table-bordered{
+	width: 20%;
+}
