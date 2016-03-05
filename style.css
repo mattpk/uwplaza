@@ -83,5 +83,9 @@ table.tablec {
 }
 
 table.table-bordered{
-	width: 90%;
+	/*width: 90%;*/
+}
+
+table.table-bordered th{
+	width:50%;
 }
