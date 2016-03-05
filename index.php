@@ -96,47 +96,137 @@
 
 
     <div class="container-fluid"><center>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC L">
-                <strong>Panino Challenge</strong><br>
+                <strong>A - Panino's Challenge</strong><br>
             </a>
         </div>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC M">
-                <strong>Panino Challenge</strong><br>
+                <strong>B - Aunty's Challenge</strong><br>
             </a>
         </div>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>C - SOGO Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>D - Burger King Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>E - Mel's Diner Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>F - Chen's Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>G - Seoul Soul Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>H - Mr. Sushi Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>I - Waterloo Star Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>J - Mongolian Grill Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>K - Baba Grill Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>L - Molly Bloom's Irish Pub Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>M - Do Eat Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>N - Nuri Village Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>O - Phat Hat Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>P - Pho-Nomenon Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>Q - William's Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>S - East Side Mario's Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>T - Subway Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>U - Marble Slab Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC R">
+                <strong>V - Pita Factory Challenge</strong><br>
+            </a>    
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC L">
+                <strong>X - Grab A Greek Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
+            <a href="panino.html" class="btn btnC M">
+                <strong>Y -  Challenge</strong><br>
+            </a>
+        </div>
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC R">
                 <strong>Panino Challenge</strong><br>
             </a>    
         </div>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC L">
                 <strong>Panino Challenge</strong><br>
             </a>
         </div>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC M">
                 <strong>Panino Challenge</strong><br>
             </a>
         </div>
-        <div class="col-sm-4" id="challenge">
-            <a href="panino.html" class="btn btnC R">
-                <strong>Panino Challenge</strong><br>
-            </a>    
-        </div>
-        <div class="col-sm-4" id="challenge">
-            <a href="panino.html" class="btn btnC L">
-                <strong>Panino Challenge</strong><br>
-            </a>
-        </div>
-        <div class="col-sm-4" id="challenge">
-            <a href="panino.html" class="btn btnC M">
-                <strong>Panino Challenge</strong><br>
-            </a>
-        </div>
-        <div class="col-sm-4" id="challenge">
+        <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC R">
                 <strong>Panino Challenge</strong><br>
             </a>    
@@ -144,109 +234,10 @@
     </center>
     </div>  
 
+
     <div class="container-fluid">
     <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>A1</th>
-        <th>A2</th>
-        <th>A3</th>
-        <th>B1</th>
-        <th>B2</th>
-        <th>B3</th>
-        <th>B4</th>
-        <th>B5</th>
-        <th>B6</th>
-        <th>B7</th>
-        <th>C1</th>
-        <th>C2</th>
-        <th>C3</th>
-        <th>C4</th>
-        <th>C5</th>
-        <th>C6</th>
-        <th>C7</th>
-        <th>C8</th>
-        <th>C9</th>
-        <th>C10</th>
-        <th>F1</th>
-        <th>F2</th>
-        <th>F3</th>
-        <th>N1</th>
-        <th>N2</th>
-        <th>N3</th>
-        <th>N4</th>
-        <th>N5</th>
-        <th>N6</th>
-        <th>N7</th>
-        <th>N8</th>
-        <th>P1</th>
-        <th>P2</th>
-        <th>P3</th>
-        <th>P4</th>
-        <th>P5</th>
-        <th>P6</th>
-        <th>P7</th>
-        <th>W1</th>
-        <th>W2</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>john</td>
-        <td bgcolor="red"></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td></td>
-      </tr>
-    </tbody>
+    
   </table>
 </div>
 <center>
