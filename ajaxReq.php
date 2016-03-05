@@ -43,19 +43,22 @@ if ($req == "restaurants") {
 		$db->query("INSERT INTO users (name) values ('$user')");
 		$result = $db->query("SELECT ID FROM users where name = '$user' limit 1");
 	}
-	$user_id = ($result->fetch_assoc)['ID'];
+	$row = $result->fetch_assoc();
+	$user_id = $row['ID'];
 
 	if (!$result = $db->query("SELECT ID FROM `restaurants` WHERE name = '$restaurant' limit 1")) {
 		$db->query("INSERT INTO restaurants (name) values ('$restaurant')");
 		$result = $db->query("SELECT ID FROM restaurants where name = '$restaurant' limit 1");
 	}
-	$restaurant_id = ($result->fetch_assoc)['ID'];
+	$row = $result->fetch_assoc();
+	$restaurant_id = $row['ID'];
 
 	if (!$result = $db->query("SELECT ID FROM `dishes` WHERE name = '$dish' limit 1")) {
 		$db->query("INSERT INTO dishes (name) values ('$dish')");
 		$result = $db->query("SELECT ID FROM dishes where name = '$dish' limit 1");
 	}
-	$dish_id = ($result->fetch_assoc)['ID'];
+	$row = $result->fetch_assoc();
+	$dish_id = $row['ID'];
 
 	$db->query("Insert into main (user_id, restaurant_id, dish_id, rating, review) values ('$user_id', '$restaurant_id', '$dish_id', $rating, '$review')");
 } else if ($req == 'rdishes') { // dishes from a specific restaurant
