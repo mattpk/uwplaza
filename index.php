@@ -9,8 +9,6 @@
 	  <link rel="stylesheet" type="text/css" href="style.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <script src="js/requests.js"></script>
-      <script src="js/main.js"></script>
 	</head>
 	<body>
 
@@ -70,9 +68,7 @@
 							  <div class="dropdown">
 							    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
 							    <span class="caret"></span></button>
-							    <ul id="submit-drop" class="dropdown-menu">
-
-							      <!--insert with js -->
+							    <select id="submit-drop" class="dropdown-menu">
 							    </ul>
 							  </div>
 							</div>
