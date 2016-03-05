@@ -32,8 +32,41 @@ if ($req == "restaurants") {
 		$reply[] = $row;
 	}	
 	echo json_encode($reply);
-}/* else if ($req == 'add') {
-	$name = $_POS['']
-}*/
+} else if ($req == 'add') {
+	$user = htmlspecialchars($_POST['user']);
+	$restaurant = htmlspecialchars($_POST['restaurant']);
+	$dish = htmlspecialchars($_POST['dish']);
+	$rating = intval(htmlspecialchars($_POST['rating']));
+	$review = htmlspecialchars($_POST['review']);
+
+	if (!$result = $db->query("SELECT ID FROM `users` WHERE name = '$user' limit 1")) {
+		$db->query("INSERT INTO users (name) values ('$user')");
+		$result = $db->query("SELECT ID FROM users where name = '$user' limit 1");
+	}
+	$user_id = ($result->fetch_assoc)['ID'];
+
+	if (!$result = $db->query("SELECT ID FROM `restaurants` WHERE name = '$restaurant' limit 1")) {
+		$db->query("INSERT INTO restaurants (name) values ('$restaurant')");
+		$result = $db->query("SELECT ID FROM restaurants where name = '$restaurant' limit 1");
+	}
+	$restaurant_id = ($result->fetch_assoc)['ID'];
+
+	if (!$result = $db->query("SELECT ID FROM `dishes` WHERE name = '$dish' limit 1")) {
+		$db->query("INSERT INTO dishes (name) values ('$dish')");
+		$result = $db->query("SELECT ID FROM dishes where name = '$dish' limit 1");
+	}
+	$dish_id = ($result->fetch_assoc)['ID'];
+
+	$db->query("Insert into main (user_id, restaurant_id, dish_id, rating, review) values ('$user_id', '$restaurant_id', '$dish_id', $rating, '$review')");
+} else if ($req == 'rdishes') { // dishes from a specific restaurant
+	$restaurant = $_POST['restaurant'];
+	if (!$result = $db->query("SELECT DISTINCT dishes.name FROM main join dishes on main.dish_id = dishes.id WHERE main.restaurant_id = (SELECT id FROM restaurants WHERE name = '$restaurant')")) {
+		die('sql fun. [' . $db->connect_error . ']');
+	}
+	while ($row = $result->fetch_assoc()) {
+		$reply[] = $row['NAME'];
+	}	
+	echo json_encode($reply);
+}
 
 ?>
