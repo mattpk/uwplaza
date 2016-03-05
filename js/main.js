@@ -49,7 +49,7 @@ $(document).ready(function() {
 		var ratingT = $("#rating-field").val().trim();
 		var reviewT = $("#review-field").val().trim();
 		
-		//console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
+		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		$.post("ajaxReq.php", {req: "add", user: questName, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT}).done(function(data) {
 			location.reload();
 		});
