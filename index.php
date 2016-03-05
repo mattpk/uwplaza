@@ -19,16 +19,20 @@
 	  </div>   
 	</div>
 	<div class="container-fluid"><center>
-		<div class="col-sm-4" id="challengeL">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-3</div>
-	    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
+		<div class="col-sm-4" id="challengeL">
+			<a href="panino.html" class="btn btn-default" role="button">
+		        <strong>Panino Challenge</strong><br>
+		        <span>Very Long Summary</span>
+	      	</a>
+	    </div>
+	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeL">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeL">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeM">.col-sm-3</div>
+	    <div class="col-sm-4" id="challengeR">.col-sm-3</div>
 	</center>
 	</div>  
 	
