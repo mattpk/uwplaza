@@ -42,7 +42,7 @@
                     <div class="modal-body" style="padding: 5px;">
                     	<div class="row">
                     		<div class="col-lg-12 col-md-12 col-sm-12">
-                                <h2>Restaurant</h2>                                          
+                                <p>Please enter where and what you ate, a rating from 1-10, and a short review of what you thought.</p>                                          
                                 <div class="btn-group btn-input clearfix">
     						      <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
     						          <span data-bind="label">Select One</span> <span class="caret"></span>

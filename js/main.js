@@ -43,12 +43,11 @@ $(document).ready(function() {
 	submitButton.addEventListener("click", function(event) {
 		event.preventDefault();
 		console.log("submit clicked");
-		var dishName = document.getElementById("dish-field").getAttribute("value"); 
-		var questName = document.getElementById("questid-field").getAttribute("value");
-		var ratingT = document.getElementById("rating-field").getAttribute("value");
-		var reviewT = document.getElementById("review-field").getAttribute("value");
-		restaurantName = $(".btn.btn-default.dropdown-toggle.form-control").text();
-		alert(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
+		var dishName = document.getElementById("dish-field").getAttribute("value").trim(); 
+		var questName = document.getElementById("questid-field").getAttribute("value").trim();
+		var ratingT = document.getElementById("rating-field").getAttribute("value").trim();
+		var reviewT = document.getElementById("review-field").getAttribute("value").trim();
+		restaurantName = $(".btn.btn-default.dropdown-toggle.form-control").text().trim();
 		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		//$.post("ajaxReq.php", {req: "add", user: quest, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT});
 	});
