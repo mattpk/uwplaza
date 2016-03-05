@@ -23,5 +23,5 @@ $(document).ready(function() {
 		console.log(data);
 		var get = JSON.parse(data);
 		console.log(get);
-	}
+	});
 });
