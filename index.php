@@ -183,54 +183,45 @@
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC R">
-                <strong>S - East Side Mario's Challenge</strong><br>
+                <strong>R - East Side Mario's Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC L">
-                <strong>T - Subway Challenge</strong><br>
+                <strong>S - Subway Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC M">
-                <strong>U - Marble Slab Challenge</strong><br>
+                <strong>T - Marble Slab Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC R">
-                <strong>V - Pita Factory Challenge</strong><br>
+                <strong>U - Pita Factory Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC L">
-                <strong>X - Grab A Greek Challenge</strong><br>
+                <strong>V - Grab A Greek Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC M">
-                <strong>Y -  Challenge</strong><br>
+                <strong>W - Grace and Healthy Dumplings Challenge</strong><br>
             </a>
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC R">
-                <strong>Panino Challenge</strong><br>
+                <strong>X - Campus Pizza Challenge</strong><br>
             </a>    
         </div>
         <div class="col-sm-2" id="challenge">
             <a href="panino.html" class="btn btnC L">
-                <strong>Panino Challenge</strong><br>
+                <strong>Y - Sweet Dreams Challenge</strong><br>
             </a>
         </div>
-        <div class="col-sm-2" id="challenge">
-            <a href="panino.html" class="btn btnC M">
-                <strong>Panino Challenge</strong><br>
-            </a>
-        </div>
-        <div class="col-sm-2" id="challenge">
-            <a href="panino.html" class="btn btnC R">
-                <strong>Panino Challenge</strong><br>
-            </a>    
-        </div>
+       
     </center>
     </div>  
 
