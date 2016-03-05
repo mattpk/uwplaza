@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 	// draw main table stuff
 	$.post("ajaxReq.php", {req: "global"}).done(function(data) {
-		console.log(data);
+		//console.log(data);
 		var input = JSON.parse(data);
 		var people=[];
 		var rest=[];
@@ -80,7 +80,7 @@ $(document).ready(function() {
 		for (var i = 0; i < people.length; i++) {
 		  vals[i] = new Array(rest.length);
 		}
-		
+
 		for (var i = 0; i < people.length; i++) {
 		  	for (var n = 0; n < rest.length; n++) {
 		    	vals[i][n] = 0;
@@ -95,6 +95,9 @@ $(document).ready(function() {
 			vals[p][r]++;
 			best[r] = Math.max(best[r], vals[p][r]);
 		}
+
+
+
 		var benson = "";
 		for (var i = 0; i < people.length; i++) {
 		  	for (var n = 0; n < rest.length; n++) {
@@ -103,7 +106,25 @@ $(document).ready(function() {
 		  benson += '\n';
 		}
 		console.log(benson);
+		var alpha = "ABCDEFGHIJKLMNOPQRSTUWVXYZ";
+		for (var x = -1; x < people.length; x++) {
+			var row = $('<tr></tr>');
+			var columns = "";
 
+			for (var y = -1; x < rest.length; y++) {
+				if (x == -1 && y == -1) {
+					columns += '<tr>Name</tr>';
+				} else if (x == -1) {
+					columns += '<tr>' + alpha.substring(x,x+1) + '</tr>';
+				} else if (y == -1) {
+					columns += '<td>' + people[x] + '</td>';
+				} else {
+					columns += '<td>' + vals[x][y] + '</td>';
+				}
+			}
+			row.text(columns);
+			$("table .table-bordered").append(row);
+		}
 
 	});
 
