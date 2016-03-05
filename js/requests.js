@@ -6,7 +6,7 @@ var reqRestaurant = function(name) {
 
 var getList = function () {
 	$.post("ajaxReq.php", {req: "restaurants"}, function(data) {
-		console.log(data);
+		console.log(typeof data);
 		return JSON.parse(data);
 	});
 }
