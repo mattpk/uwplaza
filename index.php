@@ -223,7 +223,20 @@
             </a>
         </div>   
     </center>
-    </div>  
+        <div class="row">
+        	<div class="col-sm-2">
+        </center>
+    </div>
+        <div class="row">
+        	<div class="col-sm-8">
+        <center><h3>See how you fare in exploring the food in the plaza compared to your friends. Gotta eat'em all!</h3></center>
+    </div>
+    <div class="row">
+        	<div class="col-sm-2">
+        </center>
+    </div>
+        <div class="container-fluid">
+        <table class="table table-bordered">
 
 
     <div class="container-fluid">
