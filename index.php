@@ -68,7 +68,9 @@
 							  <div class="dropdown">
 							    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
 							    <span class="caret"></span></button>
-							    <select id="submit-drop" class="dropdown-menu">
+							    <ul class="dropdown-menu">
+							      <li><a href="#">HTML</a></li>
+							      <!--insert with js -->
 							    </ul>
 							  </div>
 							</div>
@@ -249,66 +251,14 @@
 <center>
 </table>
 <br />
-<table border="0"><tr><td bgcolor="gold" width="20px"></td><td>Only one person has consumed this item on the Mr. Panino Beijing House's menu.</td><td bgcolor="red" width="20px"></td><td>Consumed</td></tr></table>
-<a href="menu.py">How many have you completed (Since Nov. 1 2010)?</a><br /><br />
-
-<table border="0" cellpadding="5">
-<tr><td colspan="4" align="center"><h3>The Menu</h3></td></tr>
-
-<tr>
-<td>C1 - Chicken Rice</td>
-<td>B1 - Spicy Beef</td>
-<td>P1 - Pork With Chili Garlic</td>
-<td>N1 - Fried Chicken Noodle In Soup</td>
-</tr>
-<td>C2 - Soy Chicken Leg Rice</td>
-<td>B2 - Beef With Seafood Sauce</td>
-<td>P2 - Fried Pork Chop Rice</td>
-<td>N2 - Beef Noodle In Soup</td>
-</tr>
-<td>C3 - Sweet & Sour Chicken</td>
-<td>B3 - Curry Beef</td>
-<td>P3 - Pork With Dried Veg.</td>
-<td>N3 - Pork & Veg. Noodle In Soup</td>
-</tr>
-<td>C4 - Black Bean Chicken</td>
-<td>B4 - Oster Sauce Beef</td>
-<td>P4 - Pork Egg & Veg.</td>
-<td>N4 - Veg. Noodle In Soup</td>
-</tr>
-<td>C5 - Kung Bao Chicken</td>
-<td>B5 - Beef With Vegetable</td>
-<td>P5 - MaPo Tofu</td>
-<td>N5 - ZhaJiang Noodle</td>
-</tr>
-<td>C6 - Spicy Chicken Rice</td>
-<td>B6 - Black Bean Beef</td>
-<td>P6 - Chicken Fried Rice</td>
-<td>N6 - Spicy Chicken Noodle In Peanut Sauce</td>
-</tr>
-<td>C7 - Fried Chicken Steak</td>
-<td>B7 - Spicy Beef With Soup</td>
-<td>P7 - Meat Balls</td>
-<td>N7 - Fried Rice Noodle</td>
-</tr>
-<td>C8 - Curry Chicken Rice</td>
-<td>F1 - Spicy Sweet Fish</td>
-<td>A1 - Lamb Cumin Onion</td>
-<td>N8 - Fried Shanghai Noodle</td>
-</tr>
-<td>C9 - Chicken With Mushroom</td>
-<td>F2 - Sweet Sour Fish</td>
-<td>A2 - Spicy Fish With Soup</td>
-<td>W1 - Wonton Soup</td>
-</tr>
-<td>C10 - Shrimp Fried Rice</td>
-<td>F3 - Shrimp Wonton Noodle In Soup</td>
-<td>A3 - Sweet Sour Pork</td>
-<td>W2 - Fried/Steam Dumplings</td>
-</tr>
-
-</table>
+<table border="0"><tr><td bgcolor="#f5f5ef" width="20px"></td><td>0% </td>
+<td bgcolor="#bbbb77" width="20px" ></td><td>25%   </td>
+<td bgcolor="#53c653" width="20px"></td><td>25%   </td>
+<td bgcolor="#39ac39" width="20px"></td><td>50%   </td>
+<td bgcolor="#267326" width="20px"></td><td>100% </td>
+</tr><tr><td colspan="10"><center><h4>Dishes Tried</h4></center></td></tr></table>
 </center>
+
 	
 
 	</body>
