@@ -93,7 +93,6 @@ $(document).ready(function() {
 			var p = people.indexOf(input[x].user); 
 			var r = rest.indexOf(input[x].restaurant);
 			vals[p][r]++;
-			best[r] = Math.max(best[r], vals[p][r]);
 		}
 
 				//sort function
@@ -101,6 +100,14 @@ $(document).ready(function() {
 		var newArray = people.slice();
 	    people.sort(compareFN);
 		
+		// now do this best
+		for (var i = 0; i < rest.length; i++) {
+			var bestSum = 0;
+			for (var j = 0; j < people.length; j++) {
+				bestSum = Math.max(bestSum, vals[j][i]);
+			}
+			best[j] = bestSum;
+		}
 
 		//comperator function
 		function compareFN(x, y) {
@@ -148,7 +155,18 @@ $(document).ready(function() {
 				} else if (y == -1) {
 					columns += '<td>' + people[x] + '</td>';
 				} else {
-					columns += '<td>' + vals[x][y] + '</td>';
+					var color = '#f5f5ef';
+					if (best[y] != 0) {
+						if (vals[x][y] / best[y] > 0.90)
+							color = '#267326';
+						else if (vals[x][y] / best[y] > 0.75)
+							color = '#39ac39';
+						else if (vals[x][y] / best[y] > 0.50)
+							color = '#53c653';
+						else if (vals[x][y] / best[y] > 0.25)
+							color = '#bbbb77'
+					}
+					columns += '<td bgcolor="'+ color +'">' + vals[x][y] + '</td>';
 				}
 			}
 			$(".table-bordered").append('<tr>' + columns + '</tr>');
