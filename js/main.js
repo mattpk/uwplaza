@@ -2,7 +2,7 @@ $(document).ready(function() {
 	//$.getScript("requests.js", function*() {
 	//	console.log("main loaded, require requests");
 	//});
-
+	console.log("document ready");
 
 	var getList = function () {
 		$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
@@ -18,5 +18,6 @@ $(document).ready(function() {
 			});
 		});
 	}
+	getList();
 
 });
