@@ -12,15 +12,14 @@
   margin: 0px;
 }
 .btn.L {
-  background-color: lavenderblush;
+  background-color: blue;
 }
 .btn.M {
   background-color: black;
 }
 .btn.R {
-  background-color: yellow;
+  background-color: violet;
 }
-
 .bottom_aligner {
     padding-top: 120px;
 }
