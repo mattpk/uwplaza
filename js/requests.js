@@ -27,6 +27,7 @@ function drawTable (data) {
 	 var table = document.createElement("table");
 	 table.className = "table table-bordered";
 	 table.style.margin = "auto";
+	 table.style.width = "300px";
 	 var headers = data.items;
 	 var map = data.map;
 	 var person;
@@ -34,7 +35,7 @@ function drawTable (data) {
 	 var personName = localStorage.name;
 
 
-	 var dwidth = "20px";
+	 var dwidth = "40px";
 
 	 for(var i = 0; i < map.length; ++i) {
 	 	if(personName === map[i].name) {
@@ -52,7 +53,6 @@ function drawTable (data) {
 	 for(var i = 0; i < headers.length; ++i) {
 	 	tdata = document.createElement("th");
 	 	tdata.innerHTML = headers[i];
-	 	tdata.style.width = dwidth;
 	 	row.appendChild(tdata);
 	 }
 	 table.appendChild(row);
@@ -62,7 +62,6 @@ function drawTable (data) {
 	 	table.appendChild(row);
 	 	tdata = document.createElement("td");
 	 	tdata.innerHTML = person.name;
-	 	tdata.style.width = dwidth;
 	 	row.appendChild(tdata);
 	 	var personArr = person.eaten;
 	 	for(var i = 0; i < personArr.length; ++i) {
@@ -83,7 +82,6 @@ function drawTable (data) {
 	 	table.appendChild(row);
 	 	tdata = document.createElement("td");
 	 	tdata.innerHTML = map[j].name;
-	 	tdata.style.width = dwidth;
 	 	row.appendChild(tdata);
 	 	console.log(map[j].name);
 	 	var personArr = map[j].eaten;
