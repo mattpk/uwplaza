@@ -70,8 +70,19 @@ $(document).ready(function() {
 			}
 		}
 		var best = new Array(rest.length);
+		for (var x =0; x< best.length; x++) {
+			best[x] = 0;
+		}
+
 
 		var vals = new Array(people.length);
+		for (var i = 0; i < people.length; i++) {
+		  	for (var n = 0; n < rest.length; n++) {
+		    	vals[i][n] = 0;
+		  }
+		}
+
+
 		for (var i = 0; i < people.length; i++) {
 		  vals[i] = new Array(rest.length);
 		}
