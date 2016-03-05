@@ -47,7 +47,7 @@
 						  <button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">
 						    <span data-bind="label">Select One</span> <span class="caret"></span>
 						  </button>
-						  <ul class="dropdown-menu" role="menu">
+						  <ul class="dropdown-menu" role="menu" id="submit-drop">
 						  </ul>
 						</div>
                     	</div>

@@ -19,9 +19,9 @@ $(document).ready(function() {
 	});
 
 	// draw main table stuff
-	$.post("ajaxReq.php", {req: "global"}).done(function(data) {
+	/*$.post("ajaxReq.php", {req: "global"}).done(function(data) {
 		console.log(data);
 		var get = JSON.parse(data);
 		console.log(get);
-	});
+	});*/
 });
