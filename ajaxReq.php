@@ -39,33 +39,51 @@ if ($req == "restaurants") {
 	$rating = intval(htmlspecialchars($_POST['rating']));
 	$review = htmlspecialchars($_POST['review']);
 
-	if (!$result = $db->query("SELECT ID FROM `users` WHERE name = '$user' limit 1")) {
-		$db->query("INSERT INTO `users` (name) values ('$user')");
-		$user_id = $db->insert_id;
+	$query = "SELECT ID FROM users WHERE name = ?";
+	$stmt = $db->prepare($query);
+	$stmt->bind_param('s', $user);
+	$stmt->execute();
+	$stmt->store_result();
+	if ($stmt->num_rows == 0) {
+		$query = "INSERT INTO users (NAME) VALUES (?)";
+		$stmt = $db->prepare($query);
+		$stmt->execute();
+		$user_id = $stmt->insert_id;
 	} else {
-		$row = $result->fetch_assoc();
-		$user_id = $row['ID'];
+		$stmt->bind_result($user_id);
+		$stmt->fetch();
 	}
+	$stmt->close();
 
-	if (!$result = $db->query("SELECT ID FROM `restaurants` WHERE name = '$restaurant' limit 1")) {
-		$db->query("INSERT INTO `restaurants` (name) values ('$restaurant')");
-		$restaurant_id = $db->insert_id;
+	$query = "SELECT ID FROM restaurants WHERE name = ?";
+	$stmt = $db->prepare($query);
+	$stmt->bind_param('s', $restaurant);
+	$stmt->execute();
+	$stmt->bind_result($restaurant_id);
+	$stmt->fetch();
+	$stmt->close();
+
+	$query = "SELECT ID FROM dishes WHERE name = ?";
+	$stmt = $db->prepare($query);
+	$stmt->bind_param('s', $dish);
+	$stmt->execute();
+	$stmt->store_result();
+	if ($stmt->num_rows == 0) {
+		$query = "INSERT INTO dishes (NAME) VALUES (?)";
+		$stmt = $db->prepare($query);
+		$stmt->execute();
+		$dish_id = $stmt->insert_id;
 	} else {
-		$row = $result->fetch_assoc();
-		$restaurant_id = $row['ID'];
+		$stmt->bind_result($dish_id);
+		$stmt->fetch();
 	}
+	$stmt->close();
+
+	$query = "Insert into main (user_id, restaurant_id, dish_id, rating, review) values (?, ?, ?, ?, ?)";
+	$stmt = $db->prepare($query);
+	$stmt->bind_param('iiiis', $user_id, $restaurant_id, $dish_id, $rating, $review);
+	$stmt->execute();
 	
-
-	if (!$result = $db->query("SELECT ID FROM `dishes` WHERE name = '$dish' limit 1")) {
-		$db->query("INSERT INTO `dishes` (name) values ('$dish')");
-		$dish_id = $db->insert_id;
-	} else {
-		$row = $result->fetch_assoc();
-		$dish_id = $row['ID'];
-	}
-	
-
-	$db->query("Insert into main (user_id, restaurant_id, dish_id, rating, review) values ('$user_id', '$restaurant_id', '$dish_id', $rating, '$review')");
 } else if ($req == 'rdishes') { // dishes from a specific restaurant
 	$restaurant = $_POST['restaurant'];
 	if (!$result = $db->query("SELECT DISTINCT dishes.name FROM main join dishes on main.dish_id = dishes.id WHERE main.restaurant_id = (SELECT id FROM restaurants WHERE name = '$restaurant')")) {
