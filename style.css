@@ -43,4 +43,14 @@
     padding-top: 50px;
 }
 
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 20%;
+}
+table.tablec {
+    border-collapse: collapse;
+    text-align: center;
+    width: 10%;
+}
 
