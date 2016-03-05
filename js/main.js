@@ -151,7 +151,7 @@ $(document).ready(function() {
 				if (x == -1 && y == -1) {
 					columns += '<th>Name</th>';
 				} else if (x == -1) {
-					columns += '<th>' + rest[y] + " " + alpha.substring(y,y+1) + '</th>';
+					columns += '<th>' + rest[y] + " " + alpha.substring(y,y+1) + " " + best[y] + '</th>';
 				} else if (y == -1) {
 					columns += '<td>' + people[x] + '</td>';
 				} else {
