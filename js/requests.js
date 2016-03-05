@@ -1,3 +1,9 @@
+String.prototype.addSlashes = function() 
+{ 
+   //no need to do (str+'') anymore because 'this' can only be a string
+   return this.replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0');
+} 
+
 var reqRestaurant = function(name) {
 	$.post("ajaxReq.php", {req: name}, function(data) {
 		return JSON.parse(data);
@@ -6,8 +12,8 @@ var reqRestaurant = function(name) {
 
 var getList = function () {
 	$.post("ajaxReq.php", {req: "restaurants"}).done(function(data) {
-		console.log(typeof data);
-		return JSON.parse(data);
+		console.log(typeof data.addSlashes());
+		return JSON.parse(data.addSlashes());
 	});
 }
 
