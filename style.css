@@ -65,10 +65,13 @@ table {
     width: 20%;
 }
 
-th,td{
+td{
   text-align: center;
-  padding-left: 5px;
-  padding-right:5px;
+}
+
+th{
+  text-align: center;
+  width:20%;
 }
 
 table.tablec {
