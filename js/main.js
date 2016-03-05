@@ -69,6 +69,7 @@ $(document).ready(function() {
 				rest[rest.length]=input[x].restaurant;
 			}
 		}
+
 		var best = new Array(rest.length);
 		for (var x =0; x< best.length; x++) {
 			best[x] = 0;
@@ -77,15 +78,17 @@ $(document).ready(function() {
 
 		var vals = new Array(people.length);
 		for (var i = 0; i < people.length; i++) {
+		  vals[i] = new Array(rest.length);
+		}
+		
+		for (var i = 0; i < people.length; i++) {
 		  	for (var n = 0; n < rest.length; n++) {
 		    	vals[i][n] = 0;
 		  }
 		}
 
 
-		for (var i = 0; i < people.length; i++) {
-		  vals[i] = new Array(rest.length);
-		}
+		
 		for (var x=0; x<input.length; x++){
 			var p = people.indexOf(input[x].user); 
 			var r = rest.indexOf(input[x].restaurant);
