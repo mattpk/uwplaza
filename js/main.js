@@ -51,7 +51,7 @@ $(document).ready(function() {
 		
 		console.log(restaurantName + " " + dishName + " " + questName + " " + ratingT + " " + reviewT);
 		$.post("ajaxReq.php", {req: "add", user: questName, restaurant: restaurantName, dish: dishName, rating: ratingT, review: reviewT}).done(function(data) {
-			location.reload();
+			//location.reload();
 		});
 	});
 
