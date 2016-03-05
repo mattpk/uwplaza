@@ -1,10 +1,10 @@
-function reqRestaurant(name) {
+var reqRestaurant = function(name) {
 	$.post("ajaxReq.php", {req: name}, function(data) {
 		return JSON.parse(data);
 	});
 }
 
-function getList() {
+var getList = function () {
 	$.post("ajaxReq.php", {req: "restaurants"}, function(data) {
 		return JSON.parse(data);
 	});
@@ -22,7 +22,7 @@ var test = {
 localStorage.name = "John";
 
 // data => from reqResaurant, uses local storage
-function drawTable (data) {
+var drawTable = function(data) {
 	console.log("drawtable");
 	 var table = document.createElement("table");
 	 table.className = "table table-bordered";
@@ -101,6 +101,6 @@ function drawTable (data) {
 	 console.log("done");
 }
 
-$(document).ready(function () {
-	drawTable(test);
-});
+module.exports.drawTable = drawTable;
+module.exports.getList = getList;
+module.exports.reqRestaurant = reqRestaurant;
