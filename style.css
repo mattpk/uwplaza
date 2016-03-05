@@ -41,6 +41,7 @@
 }
 .bottom_aligner2 {
     padding-top: 50px;
+     color:#a6deee;
 }
 
 table {
@@ -54,3 +55,8 @@ table.tablec {
     width: 10%;
 }
 
+.jumbotron{
+  background: url("header_bg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
