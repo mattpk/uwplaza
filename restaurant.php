@@ -16,16 +16,18 @@
 </head>
 <body>
 <div class="container-fluid">
+<div class="jumbotron">
     <div class="row">
     <div class="col-sm-2">
-    <a href="index.php"><img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="263" height="163"></a>
+    <a href="index.php"><img src="EatPlazaLogo2.png" class="img-rounded" alt="Logo" width="100%" height="100%"></a>
     </div>
     <div class="col-sm-10">
-    <div class="bottom_aligner">
+    <div class="bottom_aligner2">
 	<h1>The Panino Challenge</h1>
     </div>
     </div>
     </div>
+</div>
 	<table class="table table-bordered">
     
     
