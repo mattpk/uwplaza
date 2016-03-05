@@ -4,13 +4,6 @@ var reqRestaurant = function(name) {
 	});
 }
 
-var getList = function () {
-	$.post("ajaxReq.php", {req: "restaurants"}, function(data) {
-		console.log(data);
-		return JSON.parse(data);
-	});
-}
-
 console.log("loaded");
 
 var test = {
