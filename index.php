@@ -235,9 +235,6 @@
         	<div class="col-sm-2">
         </center>
     </div>
-        <div class="container-fluid">
-        <table class="table table-bordered">
-
 
     <div class="container-fluid">
     <table class="table table-bordered">
